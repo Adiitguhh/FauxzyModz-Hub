@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fauxzy Linktree</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://images.unsplash.com/photo-1502082553048-f009c37129b9') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background: rgba(15, 40, 20, 0.4); /* hijau gelap transparan */
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      padding: 30px;
+      border-radius: 20px;
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      border-radius: 100%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .username {
+      font-size: 22px;
+      font-weight: bold;
+      color: #ffffff;
+      margin-bottom: 5px;
+    }
+
+    .bio {
+      font-size: 14px;
+      color: #dddddd;
+      margin-bottom: 25px;
+    }
+
+    .link {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 12px 20px;
+      margin: 10px 0;
+      color: #ffffff;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      gap: 10px;
+      transition: background 0.3s;
+    }
+
+    .link:hover {
+      background: rgba(255, 255, 255, 0.18);
+    }
+
+    .link img.icon {
+      width: 24px;
+      height: 24px;
+    }
+
+    .donate-section {
+      margin-top: 30px;
+    }
+
+    .donate-section img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+      margin-top: 10px;
+    }
+
+    .donate-label {
+      font-size: 18px;
+      color: #ffffff;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Foto profil lokal -->
+    <img class="profile-img" src="pp.png" alt="Foto Profil" />
+    <div class="username">@fauxzymodz</div>
+    <div class="bio">Join our channel, and give support!</div>
+
+    <!-- Link TikTok -->
+    <a class="link" href="https://www.tiktok.com/@fauxzymodz?_t=ZS-8yWL7KdeDze&_r=1" target="_blank">
+      <img class="icon" src="tiktok.png" alt="TikTok" /> TikTok
+    </a>
+
+    <!-- Link WhatsApp -->
+    <a class="link" href="https://whatsapp.com/channel/0029VazXaLD3gvWgrGs2Ox19" target="_blank">
+      <img class="icon" src="whatsapp.png" alt="WhatsApp" /> WhatsApp Channel
+    </a>
+
+    <!-- Link Telegram -->
+    <a class="link" href="https://whatsapp.com/channel/0029VazXaLD3gvWgrGs2Ox19" target="_blank">
+      <img class="icon" src="telegram.png" alt="Telegram" /> Telegram Channel
+    </a>
+
+    <!-- Donate -->
+    <a class="link" href="https://i.ibb.co/JjStjMc9/QRIS-1.png" target="_blank">
+      <img class="icon" src="qris.png" alt="Qris" /> Donate/support
+    </a>
+  </div>
+</body>
+</html>
